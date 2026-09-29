@@ -5,8 +5,8 @@ body:
   - type: markdown
     attributes:
       value: |
-        Las ideas entran al tablero en **Ideas**. Si se priorizan, se refinan juntos
-        antes de pasar a **Ready**. No hace falta que traigas la solución.
+        Tu idea entra al tablero en **Inbox**. Si se acepta pasa a **Backlog**, y se refina
+        antes de llegar a **Ready**. No hace falta que traigas la solución.
   - type: textarea
     id: problem
     attributes:
