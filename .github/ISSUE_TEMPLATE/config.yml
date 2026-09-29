@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Tablero del proyecto
+    url: https://github.com/orgs/exactamente-ar/projects/2
+    about: Mirá en qué se está trabajando y qué issues están listos para tomar.

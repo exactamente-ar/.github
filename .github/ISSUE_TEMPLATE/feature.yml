@@ -1,0 +1,34 @@
+name: Proponer una idea o feature
+description: Algo nuevo que sumaría a Exactamente. No hace falta que esté todo definido.
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Las ideas entran al tablero en **Ideas**. Si se priorizan, se refinan juntos
+        antes de pasar a **Ready**. No hace falta que traigas la solución.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Qué problema resuelve
+      description: Qué te pasa hoy, a vos o a otros estudiantes, que esto mejoraría.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: La idea
+      description: Cómo te imaginás que funcionaría.
+    validations:
+      required: true
+  - type: textarea
+    id: extra
+    attributes:
+      label: Contexto extra
+      description: Capturas, links, ejemplos de otras apps.
+  - type: checkboxes
+    id: help
+    attributes:
+      label: ¿Te gustaría implementarla?
+      options:
+        - label: Sí, me gustaría encargarme de esto

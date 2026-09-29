@@ -1,0 +1,34 @@
+name: Reportar un bug
+description: Algo no funciona como debería.
+type: Bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Gracias por reportarlo. Cuanto más concreto, más rápido se arregla.
+  - type: textarea
+    id: what
+    attributes:
+      label: Qué pasa
+      description: Qué viste y dónde (URL o pantalla).
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Qué esperabas que pasara
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Cómo reproducirlo
+      placeholder: |
+        1. Entrar a ...
+        2. Hacer clic en ...
+        3. Ver el error
+  - type: input
+    id: env
+    attributes:
+      label: Navegador / dispositivo
+      placeholder: Chrome en Android, Firefox en Windows...
